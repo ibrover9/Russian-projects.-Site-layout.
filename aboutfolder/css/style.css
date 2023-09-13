@@ -1,0 +1,124 @@
+@font-face {
+    font-family: Sedgwic;
+    src: url(../fonts/SedgwickAveDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family: ADLaM;
+    src: url(../fonts/ADLaMDisplay-Regular.ttf);
+}
+
+body{
+    margin: 0;
+}
+
+
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.team{
+    background-color: rgb(187, 183, 183);
+}
+
+
+
+.team__inner {
+    text-align: center;
+}
+.team__title {
+    font-family: ADLaM;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 50px;
+    margin: 0;
+    padding-top: 50px;
+}
+.team__line {
+width: 184px;
+height: 3px;
+background-color: rgb(77, 77, 77);
+margin: 0 auto;
+}
+
+.team__text {
+    font-family: Sedgwic;
+    padding-top: 30px;
+    line-height: 25px;
+    font-size: 16px;
+    margin: 0 auto;
+    width: 540px;
+}
+.cards {
+    padding-top: 55px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+    
+}
+img{
+    border-radius: 50%;
+}
+.iteam {
+    min-width: 210px;
+    padding: 20px 35px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 2px 4px 0px rgba(0, 1, 1, 0.2);
+}
+.iteam__img {
+    margin-bottom: 10px;
+}
+.iteam__title {
+    font-family: ADLaM;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 16px;
+    margin: 0 0 10px 0;
+   
+  
+   
+   
+}
+.iteam__text {
+    font-size: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 12px;
+    font-style: italic;
+    margin: 0 0 10px 0;
+}
+.icons {
+}
+.fa {
+    font-size: 20px;
+    color: rgb(125, 125, 125);
+   margin: 0 5px;
+}
+.fa-twitter {
+}
+.fa-dribbble {
+}
+.fa-skype {
+}
+.fa-linkedin {
+}
+
+
+
+
+.menu-items-exit {
+    padding: 10px 575px;
+}
+.menu-item-exit {
+    text-decoration: none;
+   color: black;
+   font-family: ADLaM;
+}
